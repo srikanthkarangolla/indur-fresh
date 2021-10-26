@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: indur_fresh_development
+  username: gopikrishnanayini
+  password:
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: utf8
+  database: indur_fresh_test
+  username: gopikrishnanayini
+  password:
+  host: localhost
