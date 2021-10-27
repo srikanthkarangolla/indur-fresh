@@ -1,58 +1,12 @@
-<!DOCTYPE html>
-<html>
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
-
-.bgimg {
-  background-image: url('assets/Logo1.jpg');
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  color: blue;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 30px;
-}
-
-.topleft {
-  position: absolute;
-  top: 0;
-  left: 16px;
-}
-
-.bottomleft {
-  position: absolute;
-  bottom: 0;
-  left: 16px;
-}
-
-.middle {
-  position: absolute;
-  top: 70%;
-  left: 70%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-hr {
-  margin: auto;
-  width: 40%;
-}
-</style>
-<body>
-
-<div class="bgimg">
-  <div class="middle" >
-    <h1><b>Page Is Under Construction.</b></h1>
-    <hr>
-    <p><b>Stay Tuned</b></p>
-  </div>
-  <div class="bottomleft">
-  </div>
+<div class="object">
+    <div class="object-rope"></div>
+    <div class="object-shape">
+      Coming <span class="soon">Soon</span>
+    </div>
 </div>
 
-</body>
-</html>
+<div class="content">
+  <%= image_tag("Logo1.jpg", alt: "image", class:'logo') %>
+  
+  <h1><b>Site is under construction. </b></h1>
+</div>
