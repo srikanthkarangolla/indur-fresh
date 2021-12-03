@@ -2,14 +2,21 @@
 <html>
   <head>
     <title>IndurFresh</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
+    <%= javascript_include_tag 'jquery', 'jquery-ui', 'jquery.fancybox', 'bootstrap.min', 'nav-tool', 'owl', 'pagenav', 'popper.min', 'script', 'scrollbar', 'validation', 'wow' , media: 'all', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+    <%= render partial: 'layouts/header' %>
     <%= yield %>
+    <%= render partial: 'layouts/footer' %>
   </body>
 </html>

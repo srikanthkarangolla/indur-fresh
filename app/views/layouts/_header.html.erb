@@ -1,0 +1,88 @@
+<!-- main header -->
+<header class="main-header">
+  <div class="header-top">
+    <div class="auto-container">
+      <div class="top-info">
+        <ul class="info-list clearfix">
+          <li>
+            <i class="fas fa-map-marker" aria-hidden="true"> </i>
+            Near Hanuman Junction, Vinayak Nagar
+          </li>
+          <li>
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <a href="mailto:indurfreshnzb@gmail.com">indurfreshnzb@gmail.com</a>
+          </li>
+          <li class="phone">
+            <i class="fas fa-phone" aria-hidden="true"></i>
+            <a href="tel:7799747770">7799747770</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="header-upper">
+    <div class="auto-container">
+      <div class="outer-box clearfix">
+        <div class="logo-box">
+          <figure class="logo"><a href="/"><%= image_tag 'final-logo.jpg' %></a></figure>
+        </div>
+        <div class="menu-area pull-right">
+          <!--Mobile Navigation Toggler-->
+          <div class="mobile-nav-toggler">
+              <i class="icon-bar"></i>
+              <i class="icon-bar"></i>
+              <i class="icon-bar"></i>
+          </div>
+          <nav class="main-menu navbar-expand-md navbar-light">
+            <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+              <ul class="navigation scroll-nav clearfix">
+                <li><%= link_to 'Home', root_path %></li>
+                <li><%= link_to 'About', about_path %></li>
+                <li><%= link_to 'Services', services_path %></li>
+                <li><%= link_to 'Shop', products_path %></li>             
+              </ul>
+            </div>
+          </nav>
+<!--           <ul class="menu-right-content pull-left clearfix">
+            <li class="user-box"><a href="index.html"><i class="fas fa-user"></i></a></li>
+            <li class="search-box-outer">
+              <div class="dropdown">
+                <button class="search-box-btn" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fas fa-search"></span></button>
+                <ul class="dropdown-menu pull-right search-panel" aria-labelledby="dropdownMenu3">
+                  <li class="panel-outer">
+                    <div class="form-container">
+                      <form method="post" action="blog.html">
+                        <div class="form-group">
+                          <input type="search" name="field-name" value="" placeholder="Search...." required="">
+                          <button type="submit" class="search-btn"><span class="fas fa-search"></span></button>
+                        </div>
+                      </form>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="cart-box"><a href="shop-1.html"><i class="fas fa-shopping-cart"></i><span>0</span></a></li>
+            <li class="nav-box">
+              <div class="nav-btn nav-toggler navSidebar-button clearfix">
+                <i class="fas fa-list"></i>
+              </div>
+            </li>
+          </ul> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sticky-header">
+    <div class="auto-container">
+      <div class="outer-box clearfix">
+        <figure class="logo-box pull-left"><a href="/"><%= image_tag 'final-logo.jpg' %></a></figure>
+        <div class="menu-area pull-right">
+          <nav class="main-menu clearfix">
+            <!--Keep This Empty / Menu will come through Javascript-->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
