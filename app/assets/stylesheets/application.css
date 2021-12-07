@@ -25,5 +25,3 @@
  *= require style
  *= require_self
  */
-@import "bootstrap";
-@import '@fortawesome/fontawesome-free';

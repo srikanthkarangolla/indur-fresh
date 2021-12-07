@@ -16,7 +16,6 @@
 //= require bxslider
 //= require gmaps
 //= require jquery-ui
-//= require jquery.bootstrap-touchspin
 //= require jquery.fancybox
 //= require jquery
 //= require map-helper
