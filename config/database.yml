@@ -1,4 +1,12 @@
 
+production:
+  adapter: postgresql
+  encoding: utf8
+  database: indurfresh_production
+  username: indurfresh
+  password:
+  host: localhost
+
 development:
   adapter: postgresql
   encoding: utf8
